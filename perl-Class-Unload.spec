@@ -1,15 +1,14 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
+%define		pdir	Class
+%define		pnam	Unload
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Unload
 Summary:	Class::Unload - Unload a class
-#Summary(pl.UTF-8):	
 Name:		perl-Class-Unload
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -26,10 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Unloads the given class by clearing out its symbol table and removing
-it from %INC.
-
-# %description -l pl.UTF-8
-# TODO
+it from INC hash.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -43,7 +39,6 @@ it from %INC.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
