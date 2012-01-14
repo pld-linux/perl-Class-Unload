@@ -7,13 +7,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Class::Unload - Unload a class
 Name:		perl-Class-Unload
-Version:	0.05
-Release:	2
+Version:	0.07
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	497de4c5c959b328356569a7e423fecc
+# Source0-md5:	c6a7fd628bf7a48c3374747257eb90ad
 URL:		http://search.cpan.org/dist/Class-Unload/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
