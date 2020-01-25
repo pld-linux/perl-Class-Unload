@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	Unload
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Unload - Unload a class
 Name:		perl-Class-Unload
 Version:	0.11
