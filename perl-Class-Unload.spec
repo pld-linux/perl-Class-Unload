@@ -7,13 +7,13 @@
 Summary:	Class::Unload - unload a class
 Summary(pl.UTF-8):	Class::Unload - wyładowanie klasy
 Name:		perl-Class-Unload
-Version:	0.11
+Version:	0.12
 Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0c28497de640aea4c3900fb52b7c6cb5
+# Source0-md5:	a1fb61fb984184d4a939e33f6973a7af
 URL:		https://metacpan.org/dist/Class-Unload
 BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.0
