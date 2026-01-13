@@ -8,7 +8,7 @@ Summary:	Class::Unload - unload a class
 Summary(pl.UTF-8):	Class::Unload - wyładowanie klasy
 Name:		perl-Class-Unload
 Version:	0.12
-Release:	1
+Release:	2
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
